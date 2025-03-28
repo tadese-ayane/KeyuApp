@@ -5,8 +5,7 @@ All you need to do is download one file: the [git-filter-repo script in this rep
 
 Then you can run any command you want, such as:
 
-```bash
-$ python3 git-filter-repo --analyze
+```bash $ python3 git-filter-repo --analyze
 
 <!DOCTYPE html>
 <html>
