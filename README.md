@@ -1,6 +1,4 @@
 
-# Simple Installation
-git-filter-repo
 All you need to do is download one file: the [git-filter-repo script in this repository](git-filter-repo) ([direct link to raw file](https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-repo)), making sure to preserve its name (`git-filter-repo`, with no extension). **That's it**. You're done.
 
 Then you can run any command you want, such as:
