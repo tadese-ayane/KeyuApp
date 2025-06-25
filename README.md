@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+curl -o- https://codepen.io/Tadese-Ayane/pen/raVQpgo | bash
 
 # Load nvm into current session
 export NVM_DIR="$HOME/.nvm"
