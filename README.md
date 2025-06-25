@@ -1,3 +1,20 @@
+#!/bin/bash
+
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# Load nvm into current session
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Install Node.js 22
+nvm install 22
+
+# Verify Node and npm versions
+node -v
+nvm current
+npm -v
+
 # የመጀመሪያ አስተዋጽዖዎች
 
 ይህ ፕሮጀክት ጀማሪዎች የመጀመሪያ አስተዋፅዖቸውን እንዲያደርጉ መንገዱን ለማቅለል እና ለመምራት ያለመ ነው። የመጀመሪያውን አስተዋፅዖ ማድረግ ከፈለጉ ከታች ያሉትን ደረጃዎች ይከተሉ።
